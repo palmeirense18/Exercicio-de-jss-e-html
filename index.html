@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de verificação</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario para verificar</h1>
+        <h2>Insira os valores</h2>
+        <form id="form-valores">
+            <input type="number" id="primeiro-valor" required placeholder="Primeiro valor" />
+            <input type="number" id="segundo-valor" required placeholder="Segundo valor" />
+            <button id="btn-confirm" type="submit">Verificar</button>
+        </form>
+        <p class="sucess-message"></p>
+        <p class="error-message"></p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
